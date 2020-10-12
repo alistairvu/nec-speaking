@@ -25,9 +25,9 @@ body {
 }
 
 .text-primary {
-  color: rgb(37, 75, 174);
+  background-color: rgb(37, 75, 174);
 }
 
 .btn-primary {
-  color: rgb(37, 75, 174);
+  background-color: rgb(37, 75, 174);
 }
