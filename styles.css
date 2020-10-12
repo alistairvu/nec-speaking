@@ -2,6 +2,7 @@ body {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
+  text-align: justify;
 }
 
 @media (max-width: 1000px) {

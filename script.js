@@ -10,17 +10,19 @@ promptBtn.addEventListener("click", function () {
   const prompt = prompts[index];
   const promptAppear = `
   <p id="prompt">
-  <b>${prompt} <br>
-  Get ready to talk to an audience about this issue.</b>
+  <b><u>Question ${index + 1}:</u> ${prompt} <br><br>
+  Get ready to talk to an audience about this issue. You can use <a href="https://vocaroo.com" target="_blank">Vocaroo</a> to record your answer, and then download it and save it on your local machine.</b>
 </p>
+</div>
 <p id="submit-instructions">
   <em
     >After you are done with your recording, click the button below to submit
-    your work.</em
+    your work. <br>
+    Make sure to name your file with the date in yymmdd format, followed by an underscore and the letter</em> Q <em> and the question number, for example:</em> 201012_Q3.mp3 <em>if you get question 3.</em
   >
 </p>
 <div class="d-flex justify-content-center">
-  <button onclick="window.location.href=''" class="btn btn-primary">
+  <button onclick="window.location.href='https://classroom.google.com/u/1/c/MTUwNjU1NTU4NDg4/a/MTUwNjU1NTU4NjE5/details'" class="btn btn-primary">
     Submit
   </button>
 </div>
