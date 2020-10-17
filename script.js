@@ -22,7 +22,7 @@ promptBtn.addEventListener("click", function () {
   >
 </p>
 <div class="d-flex justify-content-center">
-  <button onclick="window.location.href='https://classroom.google.com/u/1/c/MTUwNjU1NTU4NDg4/a/MTUwNjU1NTU4NjE5/details'" class="btn btn-primary">
+  <button onclick="window.location.href='https://classroom.google.com/u/1/c/MTkwNzAyOTk0NTY2/a/MTk3NDcwMTE0Nzk2/details'" class="btn btn-primary">
     Submit
   </button>
 </div>
